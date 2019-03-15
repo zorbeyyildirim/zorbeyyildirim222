@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">	
+
+	<head>
+		<meta charset="utf-8">
+		<title>BIM222 - Homework 1</title>
+		<link rel="shortcut icon" type="image/png" href="images/logo.png"/>	
+	</head>
+
+	<body>
+		
+		<table border = "1" align="center">
+
+		<tbody>
+            <tr>
+               
+               
+                 
+               
+               <td>   <a href="index.htm">Home</a>                          </td>                      
+               <td>   <a href="books.htm">books</a>          			   </td>
+               <td>   <a href="films.htm">films</a> 					   </td>
+               <td>   <a href="musics.htm">musics</a>    				   </td>
+               <td>   <a href="usefullinks.htm">usefulllinks</a>          </td>
+               <td>   <a href="contactme.htm">Contact me </a>              </td>
+               <td>   <a href="registration.htm">Registration </a>         </td>
+              
+               
+              
+               
+            </tr>
+            
+            </tr>
+         </tbody>
+		</table>
+
+
+	<div>
+	<form action="thanks.html">
+		<fieldset>
+			<legend>Registration form</legend>
+			First name:<br>
+
+			<input type="text" name="firstname"><br>
+			Last name:<br>
+			<input type="text" name="lastname"><br>
+			Email:<br>
+			<input type="text" name="email" placeholder="1234@xyz.com"><br>
+			Password:<br>			
+			<input type="password" name="psw"><br>
+			Birthday:<br>
+			<input type="date" name="bday"><br>
+			Department:<br>
+			<select>
+			<option value="-">-</option>
+			<option value="Computer Eng">Computer Eng</option>
+			<option value="Electric Eng">Electric Eng</option>
+			<option value="Mechanical Eng">Mechanical Eng</option>
+			<option value="Architecture">architecture</option>
+			<option value="chemistry Eng">chemistry Eng</option>
+			<option value="material Eng">material Eng</option>
+			<option value="Eskişehir">Eskişehir</option>
+			<option value="Other">Other</option>
+			</select><br>
+			About you:<br>
+			<textarea rows="7" cols="60">Briefly mention about yourself.</textarea><br>
+			Upload your picture:<br>
+			<input type="file" name="pic" accept="image/*"><br>
+			Choose your gender:<br>
+			<select>
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			<option value="Other">Other</option>
+			</select>
+			<br>
+			Your interests:<br>
+			<input type="checkbox" name="interest" value="pilot">Pilotting<br>
+			<input type="checkbox" name="interest" value="chess">Playing holographic chess<br>
+			<input type="checkbox" name="interest" value="hair">Waxing your hair<br>
+			<input type="checkbox" name="interest" value="bowcaster">Bowcasters<br>
+			<input type="checkbox" name="interest" value="social">Having fun with friends<br>
+			
+
+<button onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+  alert("Thanks for registration");
+}
+</script>
+		</fieldset>
+	</form>
+	</div>
+<button type="reset" value="Reset">Reset</button>
+	<br><hr>
+	
+	
+	</body>
+	
+</html>
